@@ -1,0 +1,12 @@
+OnOtherGhostTalk
+{
+	if reference0 == "Needle"
+	{
+		_talk = reference4
+		
+		if "something" _in_ _talk
+		{
+			
+		}
+	}
+}

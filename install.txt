@@ -1,0 +1,5 @@
+charset,UTF-8
+type,ghost
+
+name,Noodle
+directory,noodle_gz
