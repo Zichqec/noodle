@@ -14,18 +14,15 @@ descript
 
 surface0
 {
-	collision,0,0,130,65,head
+	animation200.interval,bind
+	animation200.pattern0,overlay,200,0,0,0
 	
-	//Example code for blink animation - uncomment if you want it
-	//animation0.interval,random,4
-	//animation0.pattern1,overlay,101,0,0,0
-	//animation0.pattern2,overlay,102,100,0,0
-	//animation0.pattern3,overlay,-1,50,0,0
-}
-
-//—————————————————————————————— Kero surfaces ——————————————————————————————
-
-surface10
-{
-	collision,0,0,130,65,head
+	animation300.interval,bind
+	animation300.pattern0,overlay,300,0,0,0
+	
+	animation400.interval,bind
+	animation400.pattern0,overlay,400,0,0,0
+	
+	animation500.interval,bind
+	animation500.pattern0,overlay,500,0,0,0
 }
