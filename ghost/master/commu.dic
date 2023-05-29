@@ -1,12 +1,112 @@
 OnOtherGhostTalk
 {
+	LOGGING("====================================================================")
+	LOGGING("reference0: %(reference0)")
+	LOGGING("reference1: %(reference1)")
+	LOGGING("reference2: %(reference2)")
+	LOGGING("reference3: %(reference3)")
+	LOGGING("reference4: %(reference4)")
+	LOGGING("reference5: %(reference5)")
+	
+	/*
+	
+	reference0 - the ghost name
+	reference1 - sakura name of the ghost
+	reference2 - some misc stuff we're probably not worried about
+	reference3 - the ID of the event that made the other ghost talk
+	reference4 - the script from the other ghost
+	reference5 - the references passed to the other ghost, delimited by C_BYTE1
+	
+	*/
+	
 	if reference0 == "Needle"
 	{
 		_talk = reference4
 		
-		if "something" _in_ _talk
+		if reference3 == "OnOtherOverlap" && "OnNeedlePoke" _in_ _talk //Special case for needle poking
 		{
+			_words = SPLIT(_talk,'"]')[1]
+			_is_caps = 0
+			if _words == TOUPPER(_words); _is_caps = 1
 			
+			"%(TOLOWER(_words))~~"
+			--
+			if _is_caps; "~~"
 		}
+		elseif reference3 == "OnMouseDoubleClick"
+		{
+			_words = SPLIT(_talk,'\_l')[0]
+			_is_caps = 0
+			if _words == TOUPPER(_words); _is_caps = 1
+			
+			"%(TOLOWER(_words))~~"
+			--
+			if _is_caps; "~~"
+		}
+		else //Just reacting to normal convos
+		{
+			if "Crabs crabs CRABS crabs " _in_ _talk; "crabs on the beach~~ crabs on the beach~~"
+			elseif "stop ASKING for DISCOUNTS" _in_ _talk; "price on the tag~~ stop asking~~"
+			elseif ",\w4 your choice" _in_ _talk; "choose wisely~~"
+			elseif "wiggling some galaxies into existence" _in_ _talk; "wiggle wiggle~~"
+			elseif "well what're you asking me for" _in_ _talk; "i don't know either~~"
+			elseif "i WANT to GO to THE store AND buy ALL the SHELVES" _in_ _talk; "buy the shelves~~ buy the shelves~~"
+			elseif "make sure you pop a balloon today" _in_ _talk; "pop pop~~"
+			elseif "scalp scalp scalp pick pick pick" _in_ _talk; "pick pick pick~~"
+			elseif " seventy eight " _in_ _talk; "seventy eight seventy eight seventy eight~~"
+			elseif "wanna play hangman?\w8\nguess the word:\n\_q" _in_ _talk; "i bet it's noodle~~"
+			elseif "let me tell you something about cats,\w4" _in_ _talk; "having a soft outer shell helps with keeping noise down on the hard floors~~ you should try it~~"
+		}
+	}
+}
+
+
+
+
+//—————————————————————————————— This bit below handles turning this mode on and off ——————————————————————————————
+OnSecondChange
+{
+	if NeedleIsOpen && !ListenForNeedle
+	{
+		"\![raise,OnListenForNeedle,start]"
+	}
+	elseif !NeedleIsOpen && ListenForNeedle
+	{
+		"\![raise,OnListenForNeedle,end]"
+	}
+}
+
+OnListenForNeedle
+{
+	LOGGING("====================================================================")
+	LOGGING("OnListenForNeedle")
+	LOGGING("reference: %(reference)")
+	LOGGING("ListenForNeedle before: %(ListenForNeedle)")
+	LOGGING("NeedleIsOpen: %(NeedleIsOpen)")
+	if reference0 == "start"
+	{
+		ListenForNeedle = 1
+		"\![set,otherghosttalk,after]"
+	}
+	else
+	{
+		ListenForNeedle = 0
+		"\![set,otherghosttalk,false]"
+	}
+	LOGGING("ListenForNeedle after: %(ListenForNeedle)")
+	LOGGING
+}
+
+NeedleIsOpen
+{
+	ASEARCH("Needle",ghostexlist) != -1
+}
+
+On_otherghostname
+{
+	ghostexlist = ""
+	foreach reference; _ghost
+	{
+		ghostexlist ,= _ghost[0,C_BYTE1]
 	}
 }
