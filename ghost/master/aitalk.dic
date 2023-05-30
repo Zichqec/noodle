@@ -7,21 +7,21 @@ RandomTalk : nonoverlap_pool
 	"\0\b[4]noodle noodle~~ always know at least 3 places to hide, no matter where you are~~"
 	"\0\b[4]noodle noodle~~ keep your friends close, but not so close you don't have any wiggle room~~"
 	"\0\b[4]noodle noodle~~ every pasta has its own needs, so be mindful of recommended cooking times~~"
-	"\0\b[4]noodle noodle~~ small shapes are cute, but don't forget the value of flexibility~~"
+	"\0\b[4]noodle noodle~~ small shapes are cute, but don't forget the value of%(br)flexibility~~"
 	"\0\b[4]noodle noodle~~ you'll feel better if you stay loose and pliable~~ "
 	"\0\b[4]noodle noodle~~ don't stress too much about choosing a shape, they all have their uses~~"
 	"\0\b[4]noodle noodle~~ you don't have to be the best pasta to be worthwhile pasta~~"
 	"\0\b[4]noodle noodle~~ if you get thrown at the ceiling, try your best to stick~~"
 	"\0\b[4]noodle noodle~~ be aware of entrances and exits, even unconventional ones~~"
 	"\0\b[4]noodle noodle~~ hot water will cause changes, but you'll always be you~~"
-	"\0\b[4]noodle noodle~~ don't let anyone tell you you shouldn't wiggle~~"
+	"\0\b[4]noodle noodle~~ don't let anyone tell you you shouldn't%(br)wiggle~~"
 	"\0\b[4]noodle noodle~~ sauces come and go, stay true to you and you can adapt to any change~~"
 	"\0\b[4]noodle noodle~~ not all dishes work well with cheese, and that's okay~~"
 	"\0\b[4]noodle noodle~~ some people may avoid you for health reasons, don't take it personally~~"
 	"\0\b[4]noodle noodle~~ horizontal is a good state of being~~"
-	"\0\b[4]noodle noodle~~ don't ask what's in the brew if you aren't prepared for an answer~~"
+	"\0\b[4]noodle noodle~~ don't ask what's in the brew if you aren't prepared for an%(br)answer~~"
 	"\0\b[4]noodle noodle~~ store in a cool, dry place~~"
-	"\0\b[4]noodle noodle~~ don't resist sleep if you need to catch up~~"
+	"\0\b[4]noodle noodle~~ don't resist sleep if you need to catch%(br)up~~"
 	"\0\b[4]noodle noodle~~ dried peas are not acceptable, so don't tolerate them~~"
 	"\0\b[4]noodle noodle~~ you don't need to go all the way to a rolling boil if it feels like too much~~"
 	"\0\b[0]noodle noodle~~ if you're not comfortable, don't be afraid to express your feelings and ask for reasonable accommodation~~"
@@ -49,6 +49,12 @@ RandomTalk : nonoverlap_pool
 	"\0\b[0]so there i was, winding my way through a maze of dirty cups and sticky spoons, when i heard it: thud. thud. thud. each one getting closer. i did the only thing i could think of and slithered my way to the drain. my mistake. next thing i knew, that tap was blown wide open and water was rushing my way. i held onto the sink strainer for dear life. i don't know how long i was in that tidal wave, but eventually it stopped, so i made my escape. and that's the lesson; hold on for as long as you can, because even a few seconds more can make the difference~~"
 	
 	if SHIORI3FW.BalloonName == "Noodloon"; "\0\b[0]sauce time~~ %(saucetime)"
+	
+	"\0\b[4]hides in the %(hidingspot)"
+	"\0\b[4]slurp"
+	"\0\b[4]don't stick me with a fork"
+	"\0\b[4]do you think i could pretend to be art"
+	"\0\b[4]makes a %(bodypart) out of old dough"
 	
 }
 

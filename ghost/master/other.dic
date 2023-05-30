@@ -48,6 +48,7 @@ OnTranslateInternal.AutoPauses
 		//_talk = REPLACE(_talk,"- ","-\w8 ") //Dash - This one seems to happen a lot when I don't want it, so I am commenting it out
 		_talk = REPLACE(_talk,"~ ","~\w8 ") //Tilde
 		_talk = REPLACE(_talk,"; ",";\w4 ") //Semicolon
+		_talk = REPLACE(_talk,": ",";\w8 ") //Colon
 	}
 	
 	_talk
@@ -242,4 +243,10 @@ OnNotifyDressupInfo
 			break
 		}
 	}
+}
+
+br
+{
+	if SHIORI3FW.BalloonName == "Noodloon"; "\n"
+	else; " "
 }
