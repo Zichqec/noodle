@@ -18,7 +18,7 @@ hidingspot
 	"lint catcher"
 	"pantry"
 	"recycling bin"
-	"compost"
+	"compost pile"
 	"bog hole"
 	"mud"
 	"spine of that old dictionary"
@@ -41,4 +41,126 @@ bodypart
 	"liver"
 	"skull"
 	"toe"
+}
+
+badenvironment
+{
+	"musty"
+	"frigid"
+	"damp"
+	"dusty"
+	"sour"
+	"chalky"
+	"squishy"
+	"rough"
+	"arid"
+	"soggy"
+	"hungry"
+	"loud"
+	"scary"
+	"creepy"
+	"dingy"
+}
+
+considered
+{
+	"wiggling"
+	"squiggling"
+	"making a portrait out of %(pasta)"
+	"all the different colors a pasta can be"
+	"examining your sauce options"
+	"making a metallic friend"
+	"trying a new shape"
+	"making a map of all the entrances and exits of the %(hidingspot)"
+	"knots"
+	"finding the right baking temperature for you"
+}
+
+pasta
+{
+	"rigatoni"
+	"rotini"
+	"bucatini"
+	"spaghetti"
+	"macaroni"
+	"shells"
+	"fettucini"
+	"ravioli"
+	"lasagna"
+}
+
+friends
+{
+	"beetles"
+	"worms"
+	"fireflies"
+	"moths"
+	"caterpillars"
+	"ice cubes"
+	"ghosts"
+	"bottles"
+	"shells"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+addsauce : all
+{
+	_path = SHIORI3FW.BalloonPath
+	_color = ""
+	case CurrentColor
+	{
+		when "Green", "Black", "Purple"; _color = "white"
+	}
+	_img = _path + "online" + _color
+	" "
+	for _i = 0; _i < 25; _i++
+	{
+		"\![lock,balloonrepaint]\c[char,1]"
+		"\_b["
+		_img + _i + ".png"
+		",inline,--option=use_self_alpha]"
+		"\![unlock,balloonrepaint]\_w[50]"
+	}
+}
+
+addleaves
+{
+	_path = SHIORI3FW.BalloonPath
+	_color = ""
+	if CurrentColor == "Green"; _color = "purple"
+	
+	_arrow0 = _path + "arrow" + _color + "0" + ".png"
+	_arrow1 = _path + "arrow" + _color + "1" + ".png"
+	_sstp = _path + "sstp" + _color + ".png"
+	_img = ANY(_arrow0,_arrow1,_sstp)
+	
+	_x = RAND(208) + 14
+	_y = RAND(184) + 14
+	
+	"\_b[%(_img),%(_x),%(_y),--option=foreground,--option=use_self_alpha]"
+}
+
+saucetime : all
+{
+	"\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)"
+	
+	"\_l[0,0]\n\f[align,right] %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)"
+	
+	_rand = RAND(30) + 21
+	for _i = 0; _i < _rand; _i++
+	{
+		"%(addleaves)\w1"
+	}
 }

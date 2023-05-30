@@ -25,7 +25,7 @@ RandomTalk : nonoverlap_pool
 	"\0\b[4]noodle noodle~~ dried peas are not acceptable, so don't tolerate them~~"
 	"\0\b[4]noodle noodle~~ you don't need to go all the way to a rolling boil if it feels like too much~~"
 	"\0\b[0]noodle noodle~~ if you're not comfortable, don't be afraid to express your feelings and ask for reasonable accommodation~~"
-	"\0\b[4]noodle noodle~~ good friends are worth waiting for~~"
+	"\0\b[4]noodle noodle~~ good friends are worth waiting%(br)for~~"
 	"\0\b[4]noodle noodle~~ don't let anyone bite you as a test of your quality~~"
 	"\0\b[4]noodle noodle~~ allow yourself time to rest in order to be your best self~~"
 	"\0\b[4]noodle noodle~~ if you feel soggy, don't push yourself too hard~~"
@@ -39,6 +39,9 @@ RandomTalk : nonoverlap_pool
 	"\0\b[4]noodle noodle~~ pale pasta yellow is a classic, but don't be afraid to try some dyes~~"
 	"\0\b[0]noodle noodle~~ you don't have to fit the definition of pasta to be a noodle, only you can decide your noodlyness~~"
 	"\0\b[4]noodle noodle~~ being a fellow noodle doesn't automatically make someone a good friend~~"
+	"\0\b[0]noodle noodle~~ don't spend too long in %(badenvironment) environments, they're bad for your texture~~"
+	"\0\b[0]noodle noodle~~ if your body is soft, focus on being able to dodge rather than trying to withstand damage~~"
+	"\0\b[4]noodle noodle~~ wherever you are, you're never alone~~ so keep an eye out for would-be attackers~~"
 	
 	
 	"\0\b[0]so there i was, under the bottom cabinets, when suddenly i was face to face with the biggest ant you've ever seen."
@@ -55,55 +58,14 @@ RandomTalk : nonoverlap_pool
 	"\0\b[4]don't stick me with a fork"
 	"\0\b[4]do you think i could pretend to be art"
 	"\0\b[4]makes a %(bodypart) out of old dough"
-	
-}
-
-addsauce : all
-{
-	_path = SHIORI3FW.BalloonPath
-	_color = ""
-	case CurrentColor
-	{
-		when "Green", "Black", "Purple"; _color = "white"
-	}
-	_img = _path + "online" + _color
-	" "
-	for _i = 0; _i < 25; _i++
-	{
-		"\![lock,balloonrepaint]\c[char,1]"
-		"\_b["
-		_img + _i + ".png"
-		",inline,--option=use_self_alpha]"
-		"\![unlock,balloonrepaint]\_w[50]"
-	}
-}
-
-addleaves
-{
-	_path = SHIORI3FW.BalloonPath
-	_color = ""
-	if CurrentColor == "Green"; _color = "purple"
-	
-	_arrow0 = _path + "arrow" + _color + "0" + ".png"
-	_arrow1 = _path + "arrow" + _color + "1" + ".png"
-	_sstp = _path + "sstp" + _color + ".png"
-	_img = ANY(_arrow0,_arrow1,_sstp)
-	
-	_x = RAND(208) + 14
-	_y = RAND(184) + 14
-	
-	"\_b[%(_img),%(_x),%(_y),--option=foreground,--option=use_self_alpha]"
-}
-
-saucetime : all
-{
-	"\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)"
-	
-	"\_l[0,0]\n\f[align,right] %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)"
-	
-	_rand = RAND(30) + 21
-	for _i = 0; _i < _rand; _i++
-	{
-		"%(addleaves)\w1"
-	}
+	"\0\b[4]bend bend~~ wiggle wiggle~~~~"
+	"\0\b[4]don't get got"
+	"\0\b[4]the %(hidingspot) is a good place to hide if you're in a pinch"
+	"\0\b[4]watch out if you're hiding in the %(hidingspot), sometimes there are other occupants"
+	"\0\b[4]have you ever considered %(considered)?"
+	"\0\b[0]sometimes i take the time to read the newspaper, when stray pages fall to the floor. last time i read an interesting story about %(considered)"
+	"\0\b[4]know when trash day is, and avoid the trash cans the night before"
+	"\0\b[4]never forget to watch the skies"
+	"\0\b[4]%(friends) can be great friends"
+	"\0\b[4]garnish can make or break a dish~~"
 }
