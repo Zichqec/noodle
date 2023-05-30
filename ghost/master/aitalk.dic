@@ -1,53 +1,103 @@
 RandomTalk : nonoverlap_pool
 {
-	"noodle noodle~~ if you're feeling stessed, try curling over onto yourself~~ three times should do~~"
-	"noodle noodle~~ nothing's better than soaking in some boiling water to loosen up that tension~~ "
-	"noodle noodle~~ good friends are like strainers~~ they'll hold you while everything else is falling around you~~"
-	"noodle noodle~~ you don't have to stay the same all the time~~ try changing up your sauce once in a while~~"
-	"noodle noodle~~ always know at least 3 places to hide, no matter where you are~~"
-	"noodle noodle~~ keep your friends close, but not so close you don't have any wiggle room~~"
-	"noodle noodle~~ every pasta has its own needs, so be mindful of recommended cooking times~~"
-	"noodle noodle~~ small shapes are cute, but don't forget the value of flexibility~~"
-	"noodle noodle~~ you'll feel better if you stay loose and pliable~~ "
-	"noodle noodle~~ don't stress too much about choosing a shape, they all have their uses~~"
-	"noodle noodle~~ you don't have to be the best pasta to be worthwhile pasta~~"
-	"noodle noodle~~ if you get thrown at the ceiling, try your best to stick~~"
-	"noodle noodle~~ be aware of entrances and exits, even unconventional ones~~"
-	"noodle noodle~~ hot water will cause changes, but you'll always be you~~"
-	"noodle noodle~~ don't let anyone tell you you shouldn't wiggle~~"
-	"noodle noodle~~ sauces come and go, stay true to you and you can adapt to any change~~"
-	"noodle noodle~~ not all dishes work well with cheese, and that's okay~~"
-	"noodle noodle~~ some people may avoid you for health reasons, don't take it personally~~"
-	"noodle noodle~~ horizontal is a good state of being~~"
-	"noodle noodle~~ don't ask what's in the brew if you aren't prepared for an answer~~"
-	"noodle noodle~~ store in a cool, dry place~~"
-	"noodle noodle~~ don't resist sleep if you need to catch up~~"
-	"noodle noodle~~ dried peas are not acceptable, so don't tolerate them~~"
-	"noodle noodle~~ you don't need to go all the way to a rolling boil if it feels like too much~~"
-	"noodle noodle~~ if you're not comfortable, don't be afraid to express your feelings and ask for reasonable accommodation~~"
-	"noodle noodle~~ good friends are worth waiting for~~"
-	"noodle noodle~~ don't let anyone bite you as a test of your quality~~"
-	"noodle noodle~~ allow yourself time to rest in order to be your best self~~"
-	"noodle noodle~~ if you feel soggy, don't push yourself too hard~~"
-	"noodle noodle~~ no matter what your shape is, someone out there will be a fan~~"
-	"noodle noodle~~ don't let yourself be stretched too thin~~"
-	"noodle noodle~~ a little dip in the dishwater never hurts~~"
-	"noodle noodle~~ resting time is important if you want to rise to your best~~"
-	"noodle noodle~~ try a warm damp cloth on your head~~"
-	"noodle noodle~~ it's important to try and exist on your own for a while when you're fresh off the cutting board~~"
-	"noodle noodle~~ you don't belong in the garbage disposal~~"
-	"noodle noodle~~ pale pasta yellow is a classic, but don't be afraid to try some dyes~~"
-	"noodle noodle~~ you don't have to fit the definition of pasta to be a noodle, only you can decide your noodlyness~~"
-	"noodle noodle~~ being a fellow noodle doesn't automatically make someone a good friend~~"
+	"\0\b[4]noodle noodle~~ if you're feeling stessed, try curling over onto yourself~~ three times should do~~"
+	"\0\b[4]noodle noodle~~ nothing's better than soaking in some boiling water to loosen up that tension~~ "
+	"\0\b[0]noodle noodle~~ good friends are like strainers~~ they'll hold you while everything else is falling around you~~"
+	"\0\b[4]noodle noodle~~ you don't have to stay the same all the time~~ try changing up your sauce once in a while~~"
+	"\0\b[4]noodle noodle~~ always know at least 3 places to hide, no matter where you are~~"
+	"\0\b[4]noodle noodle~~ keep your friends close, but not so close you don't have any wiggle room~~"
+	"\0\b[4]noodle noodle~~ every pasta has its own needs, so be mindful of recommended cooking times~~"
+	"\0\b[4]noodle noodle~~ small shapes are cute, but don't forget the value of flexibility~~"
+	"\0\b[4]noodle noodle~~ you'll feel better if you stay loose and pliable~~ "
+	"\0\b[4]noodle noodle~~ don't stress too much about choosing a shape, they all have their uses~~"
+	"\0\b[4]noodle noodle~~ you don't have to be the best pasta to be worthwhile pasta~~"
+	"\0\b[4]noodle noodle~~ if you get thrown at the ceiling, try your best to stick~~"
+	"\0\b[4]noodle noodle~~ be aware of entrances and exits, even unconventional ones~~"
+	"\0\b[4]noodle noodle~~ hot water will cause changes, but you'll always be you~~"
+	"\0\b[4]noodle noodle~~ don't let anyone tell you you shouldn't wiggle~~"
+	"\0\b[4]noodle noodle~~ sauces come and go, stay true to you and you can adapt to any change~~"
+	"\0\b[4]noodle noodle~~ not all dishes work well with cheese, and that's okay~~"
+	"\0\b[4]noodle noodle~~ some people may avoid you for health reasons, don't take it personally~~"
+	"\0\b[4]noodle noodle~~ horizontal is a good state of being~~"
+	"\0\b[4]noodle noodle~~ don't ask what's in the brew if you aren't prepared for an answer~~"
+	"\0\b[4]noodle noodle~~ store in a cool, dry place~~"
+	"\0\b[4]noodle noodle~~ don't resist sleep if you need to catch up~~"
+	"\0\b[4]noodle noodle~~ dried peas are not acceptable, so don't tolerate them~~"
+	"\0\b[4]noodle noodle~~ you don't need to go all the way to a rolling boil if it feels like too much~~"
+	"\0\b[0]noodle noodle~~ if you're not comfortable, don't be afraid to express your feelings and ask for reasonable accommodation~~"
+	"\0\b[4]noodle noodle~~ good friends are worth waiting for~~"
+	"\0\b[4]noodle noodle~~ don't let anyone bite you as a test of your quality~~"
+	"\0\b[4]noodle noodle~~ allow yourself time to rest in order to be your best self~~"
+	"\0\b[4]noodle noodle~~ if you feel soggy, don't push yourself too hard~~"
+	"\0\b[4]noodle noodle~~ no matter what your shape is, someone out there will be a fan~~"
+	"\0\b[4]noodle noodle~~ don't let yourself be stretched too thin~~"
+	"\0\b[4]noodle noodle~~ a little dip in the dishwater never hurts~~"
+	"\0\b[4]noodle noodle~~ resting time is important if you want to rise to your best~~"
+	"\0\b[4]noodle noodle~~ try a warm damp cloth on your head~~"
+	"\0\b[0]noodle noodle~~ it's important to try and exist on your own for a while when you're fresh off the cutting board~~"
+	"\0\b[4]noodle noodle~~ you don't belong in the garbage disposal~~"
+	"\0\b[4]noodle noodle~~ pale pasta yellow is a classic, but don't be afraid to try some dyes~~"
+	"\0\b[0]noodle noodle~~ you don't have to fit the definition of pasta to be a noodle, only you can decide your noodlyness~~"
+	"\0\b[4]noodle noodle~~ being a fellow noodle doesn't automatically make someone a good friend~~"
 	
 	
-	"so there i was, under the bottom cabinets, when suddenly i was face to face with the biggest ant you've ever seen."
-	"so there i was, hanging off the edge of the clothesline, a crow at my back and a mud puddle below me."
-	"so there i was, just behind the oregano minding my own business, when up walks a skunk like he owns the place."
-	"so there i was, resting just inside the garden hose, when what should happen by but the nastiest looking fly you ever saw. wanted to take a piece of me, he did, but i knew the hose better than he did, and so i live to tell the tale. and that's the lesson; don't rest anywhere unless you know where each exit leads~~"
-	"so there i was, squiggling my way under a canopy of blankets, when: whoosh! fresh air! exposed to the elements! i squiggle-wiggled like no tomorrow."
-	"so there i was, winding my way through a maze of dirty cups and sticky spoons, when i heard it: thud. thud. thud. each one getting closer. i did the only thing i could think of and slithered my way to the drain. my mistake. next thing i knew, that tap was blown wide open and water was rushing my way. i held onto the sink strainer for dear life. i don't know how long i was in that tidal wave, but eventually it stopped, so i made my escape. and that's the lesson; hold on for as long as you can, because even a few seconds more can make the difference~~"
+	"\0\b[0]so there i was, under the bottom cabinets, when suddenly i was face to face with the biggest ant you've ever seen."
+	"\0\b[4]so there i was, hanging off the edge of the clothesline, a crow at my back and a mud puddle below me."
+	"\0\b[0]so there i was, just behind the oregano minding my own business, when up walks a skunk like he owns the place."
+	"\0\b[0]so there i was, resting just inside the garden hose, when what should happen by but the nastiest looking fly you ever saw. wanted to take a piece of me, he did, but i knew the hose better than he did, and so i live to tell the tale. and that's the lesson; don't rest anywhere unless you know where each exit leads~~"
+	"\0\b[0]so there i was, squiggling my way under a canopy of blankets, when: whoosh! fresh air! exposed to the elements! i squiggle-wiggled like no tomorrow."
+	"\0\b[0]so there i was, winding my way through a maze of dirty cups and sticky spoons, when i heard it: thud. thud. thud. each one getting closer. i did the only thing i could think of and slithered my way to the drain. my mistake. next thing i knew, that tap was blown wide open and water was rushing my way. i held onto the sink strainer for dear life. i don't know how long i was in that tidal wave, but eventually it stopped, so i made my escape. and that's the lesson; hold on for as long as you can, because even a few seconds more can make the difference~~"
 	
+	if SHIORI3FW.BalloonName == "Noodloon"; "\0\b[0]sauce time~~ %(saucetime)"
 	
+}
+
+addsauce : all
+{
+	_path = SHIORI3FW.BalloonPath
+	_color = ""
+	case CurrentColor
+	{
+		when "Green", "Black", "Purple"; _color = "white"
+	}
+	_img = _path + "online" + _color
+	" "
+	for _i = 0; _i < 25; _i++
+	{
+		"\![lock,balloonrepaint]\c[char,1]"
+		"\_b["
+		_img + _i + ".png"
+		",inline,--option=use_self_alpha]"
+		"\![unlock,balloonrepaint]\_w[50]"
+	}
+}
+
+addleaves
+{
+	_path = SHIORI3FW.BalloonPath
+	_color = ""
+	if CurrentColor == "Green"; _color = "purple"
 	
+	_arrow0 = _path + "arrow" + _color + "0" + ".png"
+	_arrow1 = _path + "arrow" + _color + "1" + ".png"
+	_sstp = _path + "sstp" + _color + ".png"
+	_img = ANY(_arrow0,_arrow1,_sstp)
+	
+	_x = RAND(208) + 14
+	_y = RAND(184) + 14
+	
+	"\_b[%(_img),%(_x),%(_y),--option=foreground,--option=use_self_alpha]"
+}
+
+saucetime : all
+{
+	"\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)"
+	
+	"\_l[0,0]\n\f[align,right] %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)\n %(addsauce)"
+	
+	_rand = RAND(30) + 21
+	for _i = 0; _i < _rand; _i++
+	{
+		"%(addleaves)\w1"
+	}
 }

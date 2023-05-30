@@ -8,7 +8,21 @@ OnTranslate
 		_talk = EVAL('"' + REPLACE(_talk,'"','""') + '"')
 	}
 	
-	//If you want to add anything to OnTranslate, like text replacement, I would put it after this point, generally. Just make sure it's before the TOSTR(_talk)
+	_bloon = 0
+	case CurrentColor
+	{
+		when "Red"; _bloon = 1
+		when "Green"; _bloon = 2
+		when "Black"; _bloon = 3
+		when "Purple"; _bloon = 4
+	}
+	
+	if SHIORI3FW.BalloonName == "Noodloon"
+	{
+		_talk = REPLACE(_talk,"\0\b[0]","\0\b[%(_bloon)0]")
+		_talk = REPLACE(_talk,"\0\b[2]","\0\b[%(_bloon)2]")
+		_talk = REPLACE(_talk,"\0\b[4]","\0\b[%(_bloon)4]")
+	}
 	
 	TOSTR(_talk)
 }
@@ -214,4 +228,18 @@ OnNotifyUserInfo : void
 		SHIORI3FW.UserBirthday[_i] = TOINT(SHIORI3FW.UserBirthday[_i])
 	}
 	SHIORI3FW.UserSex = reference[3]
+}
+
+OnNotifyDressupInfo
+{
+	CurrentColor = ""
+	//character ID, category name, part name, option, on-1/off-0, thumbnail path
+	foreach reference; _ref
+	{
+		if _ref[4,C_BYTE1] == "1"
+		{
+			CurrentColor = _ref[2,C_BYTE1]
+			break
+		}
+	}
 }
