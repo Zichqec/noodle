@@ -29,7 +29,7 @@ OnOtherGhostTalk
 			_is_caps = 0
 			if _words == TOUPPER(_words); _is_caps = 1
 			
-			"%(TOLOWER(_words))~~"
+			"\0\b[4]%(TOLOWER(_words))~~"
 			--
 			if _is_caps; "~~"
 		}
@@ -39,7 +39,7 @@ OnOtherGhostTalk
 			_is_caps = 0
 			if _words == TOUPPER(_words); _is_caps = 1
 			
-			"%(TOLOWER(_words))~~"
+			"\0\b[4]%(TOLOWER(_words))~~"
 			--
 			if _is_caps; "~~"
 		}

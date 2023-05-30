@@ -33,14 +33,29 @@ hidingspot
 	"bat house"
 	"bucket"
 	"pocket of that worn out old jacket"
+	"envelope"
+	"laundry basket"
+	"apple peels"
+	"mouse hole"
+	"baseboards"
+	"register"
+	"cold air return"
+	"remote control"
+	"stash of canned tuna"
+	"yarn basket"
+	"pile of half-finished crossword puzzles"
+	"unwashed mug"
+	"empty travel pack of tissues"
+	"old plastic grocery bag"
+	"damp paper bag"
 }
 
 bodypart
 {
 	"kidney"
 	"liver"
-	"skull"
-	"toe"
+	"tongue"
+	"loin"
 }
 
 badenvironment

@@ -68,4 +68,12 @@ RandomTalk : nonoverlap_pool
 	"\0\b[4]never forget to watch the skies"
 	"\0\b[4]%(friends) can be great friends"
 	"\0\b[4]garnish can make or break a dish~~"
+	"\0\b[4]herbs and spices aren't for everyone, don't be afraid to say no~~"
+	"\0\b[4]make sure you inspect the %(hidingspot) carefully before settling there"
+	"\0\b[4]%(pasta) is always a great choice"
+	"\0\b[0]being pliable makes you easier to tear, but it also makes you quiet on hard surfaces. consider the tradeoff based on your needs~~"
+	"\0\b[4]sometimes i think about gardening~~~"
+	"\0\b[4]know some practical skills"
+	"\0\b[0]don't let pride get in the way of safety~~\w8\w8%(br)if crawling behind the %(hidingspot) is what it takes to escape, do it~~"
+	
 }
