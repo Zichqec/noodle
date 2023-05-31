@@ -45,17 +45,37 @@ OnOtherGhostTalk
 		}
 		else //Just reacting to normal convos
 		{
-			if "Crabs crabs CRABS crabs " _in_ _talk; "\0\b[4]crabs on the beach~~ crabs on the beach~~"
-			elseif "stop ASKING for DISCOUNTS" _in_ _talk; "\0\b[4]price on the tag~~ stop asking~~"
-			elseif ",\w4 your choice" _in_ _talk; "\0\b[4]choose wisely~~"
-			elseif "wiggling some galaxies into existence" _in_ _talk; "\0\b[4]wiggle wiggle~~"
-			elseif "well what're you asking me for" _in_ _talk; "\0\b[4]i don't know either~~"
-			elseif "i WANT to GO to THE store AND buy ALL the SHELVES" _in_ _talk; "\0\b[4]buy the shelves~~ buy the shelves~~"
-			elseif "make sure you pop a balloon today" _in_ _talk; "\0\b[4]pop pop~~"
-			elseif "scalp scalp scalp pick pick pick" _in_ _talk; "\0\b[4]pick pick pick~~"
-			elseif " seventy eight " _in_ _talk; "\0\b[4]seventy eight seventy eight seventy eight~~"
-			elseif "wanna play hangman?\w8\nguess the word:\n\_q" _in_ _talk; "\0\b[4]i bet it's noodle~~"
-			elseif "let me tell you something about cats,\w4" _in_ _talk; "\0\b[4]having a soft outer shell helps with keeping noise down on the hard floors~~ you should try it~~"
+			if "Crabs crabs CRABS crabs " _in_ _talk
+				"\0\b[4]crabs on the beach~~ crabs on the beach~~"
+				
+			elseif "stop ASKING for DISCOUNTS" _in_ _talk
+				"\0\b[4]price on the tag~~ stop asking~~"
+				
+			elseif ",\w4 your choice" _in_ _talk
+				"\0\b[4]choose wisely~~"
+				
+			elseif "wiggling some galaxies into existence" _in_ _talk
+				"\0\b[4]wiggle wiggle~~"
+				
+			elseif "well what're you asking me for" _in_ _talk
+				"\0\b[4]i don't know either~~"
+				
+			elseif "i WANT to GO to THE store AND buy ALL the SHELVES" _in_ _talk
+				"\0\b[4]buy the shelves~~ buy the shelves~~"
+				
+			elseif "make sure you pop a balloon today" _in_ _talk
+				"\0\b[4]pop pop~~"
+			elseif "scalp scalp scalp pick pick pick" _in_ _talk
+				"\0\b[4]pick pick pick~~"
+				
+			elseif " seventy eight " _in_ _talk
+				"\0\b[4]seventy eight seventy eight seventy eight~~"
+				
+			elseif "wanna play hangman?\w8\nguess the word:\n\_q" _in_ _talk
+				"\0\b[4]i bet it's noodle~~"
+				
+			elseif "let me tell you something about cats,\w4" _in_ _talk
+				"\0\b[4]having a soft outer shell helps with keeping noise down on the hard floors~~ you should try it~~"
 		}
 	}
 }

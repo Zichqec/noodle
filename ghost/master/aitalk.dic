@@ -52,6 +52,14 @@ RandomTalk : nonoverlap_pool
 	"\0\b[0]so there i was, winding my way through a maze of dirty cups and sticky spoons, when i heard it: thud. thud. thud. each one getting closer. i did the only thing i could think of and slithered my way to the drain. my mistake. next thing i knew, that tap was blown wide open and water was rushing my way. i held onto the sink strainer for dear life. i don't know how long i was in that tidal wave, but eventually it stopped, so i made my escape. and that's the lesson; hold on for as long as you can, because even a few seconds more can make the difference~~"
 	"\0\b[0]so there i was, rolling my way under the bed, when all of the sudden, i hear it:%(br)%(italic)snap!%(italicoff) i stop to assess the damage, but nothing's wrong, all my pasta is where it should be. then i notice it. a guitar. where there's a guitar there's strings, and in that under-bed dark, one of those strings had broken clean in two. nearly took me with it. just goes to show you, always be on the lookout for malfunctioning machinery. deadly stuff."
 	
+	"\0\b[4]just between you and me, %(friends) can be a little frustrating if you get too many in one place"
+	"\0\b[4]just between you and me, i've%(br)known some %(pasta) to be %(badenvironment), so always make sure you check"
+	"\0\b[4]just between you and me, %(bodypart) may be edible, but only as a last resort"
+	//"\0\b[0]just between you and me, %() takes time and you should weigh the costs against the benefits carefully"
+	"\0\b[4]just between you and me, the %(hidingspot) is not my top pick of hiding spot"
+	"\0\b[0]just between you and me, it may be best to avoid the %(friends) for a while, they're up to something"
+	"\0\b[4]just between you and me, the %(badhidingspot) will work as a hiding spot if you're really in a bind"
+	
 	if SHIORI3FW.BalloonName == "Noodloon"; "\0\b[0]sauce time~~ %(saucetime)"
 	
 	"\0\b[4]hides in the %(hidingspot)"
@@ -91,4 +99,11 @@ RandomTalk : nonoverlap_pool
 	"\0\b[4]%(bodypart) isn't all it's cracked up to be"
 	"\0\b[4]keep an eye on those mushrooms"
 	"\0\b[4]broth makes for an aromatic bath, but be extra vigilant for hungry critters~~"
+	"\0\b[4]wiggle squiggle~~~"
+	"\0\b[4]sauce time could arrive at any moment, be prepared~~"
+	"\0\b[4]don't get mixed in with the %(pasta)"
+	"\0\b[4]if you hide amongst the bristles of the broom, make sure you're prepared to hang on"
+	"\0\b[4]don't be near the pot when it's brewing time, sometimes there are spills"
+	"\0\b[0]learn to hold still when you hear a stomach growling; giving yourself away when there's a hungry critter nearby is the last thing you want to do"
+	"\0\b[4]stir fried"
 }
