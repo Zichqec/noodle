@@ -254,11 +254,11 @@ br
 
 On_getaistateex : all
 {
-	if reference0 == 0; "%(OUTPUTNUM('RandomTalk')),%(OUTPUTNUM('hidingspot')),%(OUTPUTNUM('bodypart')),%(OUTPUTNUM('badenvironment')),%(OUTPUTNUM('considered')),%(OUTPUTNUM('pasta'))" + C_BYTE1
+	if reference0 == 0; "%(OUTPUTNUM('RandomTalk')),%(OUTPUTNUM('hidingspot')),%(OUTPUTNUM('badhidingspot')),%(OUTPUTNUM('bodypart')),%(OUTPUTNUM('badenvironment')),%(OUTPUTNUM('considered')),%(OUTPUTNUM('pasta'))" + C_BYTE1
 	// if reference0 == 1; "%(OUTPUTNUM('that')),%(OUTPUTNUM('doer_of_things')),%(OUTPUTNUM('thinkabout')),%(OUTPUTNUM('bodypart')),%(OUTPUTNUM('name1')),%(OUTPUTNUM('name2'))" + C_BYTE1
 	// if reference0 == 2; "%(OUTPUTNUM('creature')),%(OUTPUTNUM('object')),%(OUTPUTNUM('food')),%(OUTPUTNUM('flavor')),%(OUTPUTNUM('cuts')),%(OUTPUTNUM('bodypart')),processed" + C_BYTE1
 
-	if reference0 == 0; "RandomTalk,hidingspot,bodypart,badenvironment,considered,pasta"
+	if reference0 == 0; "RandomTalk,hidingspot,badhidingspot,bodypart,badenvironment,considered,pasta"
 	// if reference0 == 1; "that,doer_of_things,thinkabout,bodypart,name1,name2"
 	// if reference0 == 2; "creature,object,food,flavor,cuts,processed"
 }

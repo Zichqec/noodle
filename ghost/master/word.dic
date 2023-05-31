@@ -48,6 +48,26 @@ hidingspot
 	"empty travel pack of tissues"
 	"old plastic grocery bag"
 	"damp paper bag"
+	"vegetable garden"
+	"ferret dig box"
+}
+
+badhidingspot
+{
+	"blender"
+	"mixer"
+	"washer"
+	"dryer"
+	"ceiling fan"
+	"mandoline"
+	"car engine"
+	"ramen pack"
+	"leftovers"
+	"silverware drawer"
+	"rat catcher"
+	"bathroom fan"
+	"orange peels"
+	"ant farm"
 }
 
 bodypart
@@ -140,11 +160,55 @@ friends
 	"postcards"
 	"postage stamps"
 	"rusty forks"
+	"slugs"
+	"snails"
+	"squids"
+	"crosswords"
+	"slimes"
+	"straws"
+	"spiders"
+	"bees"
 }
 
+fiends
+{
+	"skunks"
+	"cats"
+	"dogs"
+	"anteaters"
+	"crows"
+	"hamsters"
+	"ferrets"
+	"wasps"
+	"horses"
+}
 
+passphrase
+{
+	"put the %(pasta) %(bodypart) in %(pasta) %(friends)"
+	"if i'm %(pasta) %(bodypart) then who is %(pasta) %(friends)"
+	"no %(fiends)"
+	"%(fiends) and %(pasta) are seldom %(badenvironment)"
+	"%(friends), %(pasta), & %(dayday) %(bodypart)"
+	"%(hidingspot) %(pasta) on %(dayday)"
+	"%pasta %[0] %[0] %[0]"
+}
 
-
+dayday
+{
+	"sunday"
+	"monday"
+	"tuesday"
+	"wednesday"
+	"friday"
+	"saturday"
+	"noodleday"
+	"%(pasta) day"
+	"game night"
+	"pirate day"
+	"shopping day"
+	"date night"
+}
 
 
 

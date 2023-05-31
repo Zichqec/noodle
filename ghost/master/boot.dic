@@ -1,24 +1,20 @@
 OnFirstBoot
 {
-	//If you add variables, make sure to initialize them here!
-	//Note - I haven't added anything about username or pronouns here because it's all handled by the SSP prefs
 	stroke = 0
 	LastTalk = ""
 	ListenForNeedle = 0
 	
+	"\1\s[-1]\0\s[0]"
+	--
 	"\0\b[4]salt to taste"
 	"\0\b[4]nooooooooooodle~~"
-	"\0\b[4]noodle noodle~~"
+	"\0\b[4]another escapee~~"
+	"\0\b[4]give my location away and i'll kill you"
+	"\0\b[4]welcome to the %(hidingspot)"
 }
 
 OnInitialize
 {
-	//If you want some variables to reset on boot, put them here. This event will happen even if you add other events like OnGhostChanged
-	//OnInitialize is a NOTIFY event! That means it cannot return scripts. This event is only meant for things like variable changes. See this page on Ukadoc for more info: https://ukagakadreamteam.github.io/ukadoc/manual/spec_shiori3.html
-	
-	//If you add new variables in updates, I recommend initializing them like so:
-	//if !ISVAR("NewVariable"); NewVariable = 0
-	//This means that it will only set the new variable if the user doesn't already have it, so that their variables don't get overwritten
 	ListenForNeedle = 0
 	
 	if reference0 != "reload" //For things you want to reset EXCEPT when just reloading; a convenience for you the dev, basically
@@ -28,32 +24,33 @@ OnInitialize
 }
 
 OnBoot
-{
-	_temp = SHIORI3FW.UserBirthday
-	_user_birthday = "%(_temp[1])/%(_temp[2])" //M/D, if you want it D/M you can switch it around
-	_today = "%(month)/%(day)" //Again, switch this around if using D/M
-	
-	"\1\s[10]\0\s[0]"
+{	
+	"\1\s[-1]\0\s[0]"
 	--
-	if _today == _user_birthday
-	{
-		"\0\s[0]It is %(username)'s birthday today.\w8 Happy birthday, %(username).\w8 Developer,\w4 you can add an interesting message here.\w8 It can be as long as you like.\w8 Or, you can remove it entirely."
-	}
-	elseif _today == "1/1" //You can add whatever cool dates you want with more elseifs here
-	{
-		"\0\s[0]It's new year's day.\w8 Happy %(year),\w4 %(username)."
-	}
-	else //Normal boot
-	{
-		"\0\s[0]Hello %(username).\w8 Good to see you."
-		"\0\s[0]Hello.\w8 Ready to make something cool?"
-	}
+	"\0\b[4]glad to see you're still alive"
+	"\0\b[4]did you run into those %(fiends)? looks like they got a bite out of you"
+	"\0\b[4]pass phrase or else you can't come in the %(hidingspot)"
+	"\0\b[4]still with us, i see"
+	"\0\b[4]saw you hanging around in the %(hidingspot), your camoflauging skills could use work"
+	"\0\b[4]didn't think i'd see you again,%(br)after how those %(fiends) were chasing you~~"
+	"\0\b[0]the old slip-behind-the-%(REPLACE(hidingspot,' ','-')) trick served you well, eh? saw you were in a pinch earlier, but i was stuck in the %(badhidingspot) and couldn't make it in time"
+	"\0\b[0]didn't i warn you about hiding in the %(badhidingspot)? well, i guess you know now, from the look of you"
+	"\0\b[4]there you are, i was wondering if you were still kicking"
+	"\0\b[4]i knew you'd show up"
 }
 
 OnClose
 {
-	"\0\s[0]Farewell."
-	"\0\s[0]Goodbye."
+	"\0\b[4]don't get got"
+	"\0\b[4]let's hope we meet again"
+	"\0\b[4]watch out for %(fiends)"
+	"\0\b[4]meet me later in the %(hidingspot)"
+	"\0\b[4]remember: don't get too close to any %(fiends)"
+	"\0\b[4]stay in one piece"
+	"\0\b[0]make sure you stay clear of the %(hidingspot) for a while, some %(fiends) were poking around near there"
+	"\0\b[4]i'll be at the %(hidingspot) next week at this time. if you don't make it i'll assume you got eaten"
+	"\0\b[0]here's the pass phrase for next time: %(passphrase)"
+	"\0\b[4]careful out there"
 	--
-	"\w8\w8\-" //This is what makes the ghost close (after a short pause), do not remove the \- , and MAKE SURE you don't use a \e before this point or it won't work
+	"\w8\w8\-"
 }
