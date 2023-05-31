@@ -76,5 +76,5 @@ RandomTalk : nonoverlap_pool
 	"\0\b[4]sometimes i think about gardening~~~"
 	"\0\b[4]know some practical skills"
 	"\0\b[0]don't let pride get in the way of safety~~\w8\w8%(br)if crawling behind the %(hidingspot) is what it takes to escape, do it~~"
-	
+	"\0\b[0]you never know who you might meet in the %(hidingspot)~~ last time i was there, i met some %(friends)~~"
 }

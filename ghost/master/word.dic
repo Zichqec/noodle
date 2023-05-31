@@ -55,7 +55,14 @@ bodypart
 	"kidney"
 	"liver"
 	"tongue"
-	"loin"
+	"frontal lobe"
+	"skull"
+	"hoof"
+	"eye"
+	"nose"
+	"tooth"
+	"spine"
+	"bicep"
 }
 
 badenvironment
@@ -96,9 +103,7 @@ pasta
 	"rigatoni"
 	"rotini"
 	"bucatini"
-	"spaghetti"
 	"macaroni"
-	"shells"
 	"fettuccine"
 	"ravioli"
 	"ditalini"
@@ -116,6 +121,7 @@ pasta
 	"cavatappi"
 	"elbows"
 	"ribbons (egg free)"
+	"shellbows"
 }
 
 friends
@@ -128,7 +134,12 @@ friends
 	"ice cubes"
 	"ghosts"
 	"bottles"
-	"shells"
+	"seashells"
+	"dust mites"
+	"clumps of lint"
+	"postcards"
+	"postage stamps"
+	"rusty forks"
 }
 
 
