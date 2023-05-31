@@ -262,3 +262,23 @@ On_getaistateex : all
 	// if reference0 == 1; "that,doer_of_things,thinkabout,bodypart,name1,name2"
 	// if reference0 == 2; "creature,object,food,flavor,cuts,processed"
 }
+
+italic
+{
+	"\f[italic,1]"
+}
+
+italicoff
+{
+	"\f[italic,0]"
+}
+
+bold
+{
+	"\f[bold,1]"
+}
+
+boldoff
+{
+	"\f[bold,0]"
+}
