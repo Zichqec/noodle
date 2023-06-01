@@ -75,12 +75,12 @@ OnAnchorSelect
 }
 
 //Hotkeys
-OnKeyPress
-{
-	if reference0 == "f1"; "\![open,readme]"
-	elseif reference0 == "t"; OnAiTalk
-	elseif reference0 == "r"; OnLastTalk
-}
+// OnKeyPress
+// {
+	// if reference0 == "f1"; "\![open,readme]"
+	// elseif reference0 == "t"; OnAiTalk
+	// elseif reference0 == "r"; OnLastTalk
+// }
 
 //Happens about 30 seconds after a script ends, by default, to bring them back to normal poses
 OnSurfaceRestore
@@ -281,4 +281,18 @@ StartsWith
 EndsWith
 {
 	SUBSTR(_argv[0],STRLEN(_argv[0]) - STRLEN(_argv[1]),STRLEN(_argv[1])) == _argv[1]
+}
+
+OnNewTalkInterval
+{
+	LOGGING("reference: %(reference)")
+	if reference0 == "special"
+	{
+		aitalkinterval = TOINT(reference1)
+	}
+	else
+	{
+		aitalkinterval = (RAND(780) + 1) + 120
+	}
+	LOGGING("NEW INTERVAL: %(aitalkinterval)")
 }

@@ -1,5 +1,7 @@
 RandomTalk : nonoverlap_pool
 {
+	OnNewTalkInterval
+	
 	"\0\b[4]noodle noodle~~ if you're feeling stessed, try curling over onto yourself~~ three times should do~~"
 	"\0\b[4]noodle noodle~~ nothing's better than soaking in some boiling water to loosen up that tension~~ "
 	"\0\b[0]noodle noodle~~ good friends are like strainers~~ they'll hold you while everything else is falling around you~~"
