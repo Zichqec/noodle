@@ -8,6 +8,16 @@ craftmanurl,https://github.com/Zichqec/noodle
 seriko.alignmenttodesktop,free
 seriko.use_self_alpha,1
 
+menu.foreground.bitmap.filename,menu_foreground.png
+menu.background.bitmap.filename,menu_background.png
+
+menu.foreground.alignment,lefttop + repeatx + repeaty
+menu.background.alignment,lefttop + repeatx + repeaty
+
+menu.foreground.font.color.r,000
+menu.foreground.font.color.g,000
+menu.foreground.font.color.b,000
+
 //sakura.bindgroup100.default,1
 //sakura.bindoption100.group,Color,mustselect
 sakura.bindgroup200.name,Color,Red

@@ -11,5 +11,6 @@ craftmanurl,https://github.com/Zichqec/noodle
 sakura.name,Noodle
 
 icon,noodlecon.ico
+balloon,Noodloon
 
 sstp.allowunspecifiedsend,0
