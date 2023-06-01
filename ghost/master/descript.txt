@@ -10,6 +10,6 @@ craftmanurl,https://zichqec.github.io/s-the-skeleton/
 
 sakura.name,Noodle
 
-icon,icon.ico
+icon,noodlecon.ico
 
 sstp.allowunspecifiedsend,0
