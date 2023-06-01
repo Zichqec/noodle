@@ -3,3 +3,5 @@ type,ghost
 
 name,Noodle
 directory,noodle_gz
+
+balloon.directory,noodloon
