@@ -1,0 +1,15 @@
+font.color.r,237
+font.color.g,232
+font.color.b,227
+
+anchor.font.color.r,210
+anchor.font.color.g,064
+anchor.font.color.b,000
+
+sstpmessage.font.color.r,210
+sstpmessage.font.color.g,064
+sstpmessage.font.color.b,000
+
+number.font.color.r,210
+number.font.color.g,064
+number.font.color.b,000

@@ -1,0 +1,3 @@
+communicatebox.font.color.r,237
+communicatebox.font.color.g,232
+communicatebox.font.color.b,227
