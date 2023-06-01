@@ -1,0 +1,13 @@
+onlinemarker.filename,onlinewhite
+
+anchor.font.color.r,237
+anchor.font.color.g,232
+anchor.font.color.b,227
+
+sstpmessage.font.color.r,237
+sstpmessage.font.color.g,232
+sstpmessage.font.color.b,227
+
+number.font.color.r,237
+number.font.color.g,232
+number.font.color.b,227

@@ -1,0 +1,2 @@
+.gitattributes,nonar,noupdate
+README.md,nonar,noupdate

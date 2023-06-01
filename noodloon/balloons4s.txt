@@ -1,0 +1,7 @@
+validrect.left,50
+
+sstpmarker.x,40
+sstpmessage.x,55
+
+onlinemarker.x,30
+onlinemarker.y,-25
