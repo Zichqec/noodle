@@ -145,43 +145,79 @@ pasta
 	"shellbows"
 }
 
+an
+{
+	_word = _argv[0]
+	_vowels = ("a","e","i","o","u")
+	foreach _vowels; _vowel
+	{
+		if StartsWith(_word,_vowel)
+		{
+			"an %(_word)"
+			return
+		}
+	}
+	"a %(_word)"
+}
+
+friend
+{
+	"beetle"
+	"worm"
+	"firefly"
+	"moth"
+	"caterpillar"
+	"ice cube"
+	"ghost"
+	"bottle"
+	"seashell"
+	"dust mite"
+	"clump of lint"
+	"postcard"
+	"postage stamp"
+	"rusty fork"
+	"slug"
+	"snail"
+	"squid"
+	"crossword"
+	"slime"
+	"straw"
+	"spider"
+	"bee"
+}
+
 friends
 {
-	"beetles"
-	"worms"
-	"fireflies"
-	"moths"
-	"caterpillars"
-	"ice cubes"
-	"ghosts"
-	"bottles"
-	"seashells"
-	"dust mites"
-	"clumps of lint"
-	"postcards"
-	"postage stamps"
-	"rusty forks"
-	"slugs"
-	"snails"
-	"squids"
-	"crosswords"
-	"slimes"
-	"straws"
-	"spiders"
-	"bees"
+	_friend = friend
+	if _friend == "firefly"; _friend = "fireflies"
+	elseif _friend == "clump of lint"; _friend = "clumnps of lint"
+	elseif EndsWith(_friend,"x") || EndsWith(_friend,"s"); _friend += "es"
+	else; _friend += "s"
+	_friend
+}
+
+fiend
+{
+	"skunk"
+	"cat"
+	"dog"
+	"anteater"
+	"crow"
+	"hamster"
+	"ferret"
+	"wasp"
+	"horse"
+	"ant"
 }
 
 fiends
 {
-	"skunks"
-	"cats"
-	"dogs"
-	"anteaters"
-	"crows"
-	"hamsters"
-	"ferrets"
-	"wasps"
-	"horses"
+	_fiend = fiend
+	if _fiend == "firefly"; _fiend = "fireflies" //leaving these checks here so i can easily slot more stuff in if we expand
+	elseif _fiend == "clump of lint"; _fiend = "clumnps of lint"
+	elseif EndsWith(_fiend,"x") || EndsWith(_fiend,"s"); _fiend += "es"
+	else; _fiend += "s"
+	_fiend
 }
 
 passphrase
@@ -211,7 +247,15 @@ dayday
 	"date night"
 }
 
-
+food
+{
+	"lint"
+	"dirt"
+	"dust"
+	"bug legs"
+	"paper scraps"
+	"pencil shavings"
+}
 
 
 

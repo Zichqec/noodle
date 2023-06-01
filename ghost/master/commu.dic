@@ -65,6 +65,7 @@ OnOtherGhostTalk
 				
 			elseif "make sure you pop a balloon today" _in_ _talk
 				"\0\b[4]pop pop~~"
+				
 			elseif "scalp scalp scalp pick pick pick" _in_ _talk
 				"\0\b[4]pick pick pick~~"
 				
@@ -76,6 +77,135 @@ OnOtherGhostTalk
 				
 			elseif "let me tell you something about cats,\w4" _in_ _talk
 				"\0\b[4]having a soft outer shell helps with keeping noise down on the hard floors~~ you should try it~~"
+				
+			elseif "\_l[-10000]they'll never find me here" _in_ _talk
+				"\0\b[4]\_l[-10000]good hiding spot~~"
+				
+			elseif "lint traps lint traps lint traps\w8" _in_ _talk
+				"\0\b[4]it was full last time i was there~~"
+			
+			elseif "I sense.\w4.\w4.\w4 potential." _in_ _talk
+				"\0\b[4]i sense.\w4.\w4.\w4 oregano"
+			
+			elseif "Don't forget to moisturize." _in_ _talk
+				"\0\b[4]moisture is important~~"
+			
+			elseif "gonna gonna gonna eat the " _in_ _talk
+			{
+				_word = SPLIT(_talk,"eat the ")[1]
+				"\0\b[4]eat the %(_word)~~ eat the %(_word)~~"
+			}
+			
+			elseif " time\![noodle]" _in_ _talk
+			{
+				_word = SPLIT(_talk," time")[0]
+				"\0\b[4]%(_word) time %(_word) time~~"
+			}
+			
+			elseif "rings the noodle bell" _in_ _talk
+				"\0\b[4]ring ring ring~~"
+			
+			elseif "feed me" _in_ _talk
+				"\0\b[4]i have some %food, do you want some %[0]?"
+			
+			elseif "betchu didn't think a needle could be so wise" _in_ _talk
+				"\0\b[4]so wise~~"
+			
+			elseif "another loose whisker" _in_ _talk
+				"\0\b[4]i'll take it if you don't want it"
+			
+			elseif "kick\w8\ntwist\w8\nsquirm\w8\nshift\w8\nwrithe" _in_ _talk
+				"\0\b[4]wiggle \nsquiggle \nwriggle \nsquirm"
+			
+			elseif "but i don't wanna go to school" _in_ _talk
+				"\0\b[4]don't hide in lunchboxes. you never know where you'll end up..."
+			
+			elseif "the paper ate my homework" _in_ _talk
+				"\0\b[4]eat it back"
+			
+			elseif "Grinding teeth to bake into bread." _in_ _talk
+				"\0\b[4]teeth bread~~ good way to get your calcium in~~"
+			
+			elseif "rats in the walls.\w8 RATS IN THE WALLS!\w8" _in_ _talk
+				"\0\b[4]watch out for the teeth"
+			
+			elseif "Dancing in a faerie ring" _in_ _talk
+				"\0\b[4]watch your step"
+			
+			elseif "They'll take you away.\w4 Feed you well.\w8 Hold your hand while you cry at night.\w8\w8" _in_ _talk
+				"\0\b[4]make sure you don't get lost in the halls"
+			
+			elseif "take me to your leader" _in_ _talk
+				"\0\b[4]it's every noodle for itself out here"
+			
+			elseif "Trees are terrible in storms, regardless of if there's lightning involved." _in_ _talk
+				"\0\b[4]it's the truth, don't hide in trees during storms"
+				
+			elseif "hi did you bring pork bacteria" _in_ _talk
+				"\0\b[4]yes"
+			
+			elseif "eggs are just chicken seeds" _in_ _talk
+				"\0\b[4]flour is just noodle seeds~~"
+			
+			elseif "Do you remember\w8\nhow it feels\w8\w8\nto be created?" _in_ _talk
+				"\0\b[0]hot. \w8\w8\ncrowded. \w8\w8\w8\n\nare you okay? \w8\w8\w8\w8\w8\n\n\nwhere did you all go?"
+			
+			elseif "hold my hand                     i don't have hands" _in_ _talk
+				"\0\b[4]slides around you"
+			
+			elseif "does your home get sad when you leave it?" _in_ _talk
+				"\0\b[4]i live in the %(hidingspot)"
+			
+			elseif "Holding You Accountable." _in_ _talk
+				"\0\b[4]for your %(friend) crimes"
+				
+			elseif "put me on top of the " _in_ _talk
+			{
+				_word = SPLIT(_talk,"of the ")[1]
+				"\0\b[4]good idea, the %(_word) will be safe from those %(fiends)"
+			}
+			
+			elseif "don't look at me with your eyes???" _in_ _talk
+				"\0\b[4]i don't have any eyes%(ANY('\n\n\n\w8\w8\w8\w8\w8\w8yet',''))"
+			
+			elseif "why are the trees always so solid" _in_ _talk
+				"\0\b[4]not enough moisture"
+				
+			elseif "Making a wig from plasic bags." _in_ _talk
+				"\0\b[4]pretends to be hair"
+			
+			elseif "u ever feel a little wobbly" _in_ _talk
+				"\0\b[4]that can happen, you may need some time to try out"
+			
+			elseif "is it mermay yet" _in_ _talk
+				"\0\b[4]it can be mermay if you want it to be mermay"
+			
+			elseif "Freeze me and put me in your mouth like a bee." _in_ _talk
+				"\0\b[4]no thank you"
+			
+			elseif "cut open the clouds and scoop out the " _in_ _talk
+				"\0\b[4]good eating"
+				
+			elseif "\nlook out it's the martians" _in_ _talk
+				"\0\b[4]they'll never find us if we get to the %(hidingspot)"
+				
+			elseif "↑ that's a good one i like that one" _in_ _talk
+				"\0\b[4]i like it too~~~"
+				
+			elseif "look at how much fur is coming out of you" _in_ _talk
+				"\0\b[4]knits a blanket"
+				
+			elseif "happy birthday 🎉" _in_ _talk
+				"\0\b[4]happy birthday~~"
+				
+			elseif "you might want to take inventory soon," _in_ _talk
+				"\0\b[4]don't die"
+				
+			elseif "do you think i'd look cool with racing stripes" _in_ _talk
+				"\0\b[4]yeah let me get the paint"
+			
+			// elseif "" _in_ _talk
+				// "\0\b[4]"
 		}
 	}
 }

@@ -59,6 +59,15 @@ RandomTalk : nonoverlap_pool
 	"\0\b[4]just between you and me, the %(hidingspot) is not my top pick of hiding spot"
 	"\0\b[0]just between you and me, it may be best to avoid the %(friends) for a while, they're up to something"
 	"\0\b[4]just between you and me, the %(badhidingspot) will work as a hiding spot if you're really in a bind"
+	"\0\b[4]just between you and me, there's %(an(fiend)) that sniffs around here sometimes that ain't half bad, actually"
+	
+	"\0\b[0]friends? yeah, i got friends. just the other day i was hiding out in the %(hidingspot) with a %(friend), waiting for that %(fiend) to lose our scent. trusted that one with my life. hard not to after a long night like that, stuck together for warmth. \n\nyeah. %(ANY('\n\nthey''re dead now, the both of them.',''))"
+	"\0\b[0]friends? yeah, i got friends. spent all day yesterday swapping tips with the local %(friend). you wouldn't know this one, keeps real quiet about its existence, but i helped it out in a pinch once when it was stuck in that %(badenvironment) %(badhidingspot)."
+	"\0\b[0]friends? yeah, i got friends. got %(an(friend)) i meet up with now and then in the %(hidingspot), expert in chasing off %(fiends). i'll have to introduce you sometime."
+	"\0\b[0]friends? yeah, i got friends. met %(an(friend)) once that was being chased by %(an(fiend)), and i squiggle-wiggled my way out there just in time to save them. gave that bully what it had coming. sure it was risk on my part, but now i have an ally. you have to weigh the risks against the rewards carefully."
+	"\0\b[0]friends? yeah, i got friends. i met up with this %friend once that... er... was it a %[0]? \n\ni'll get back to you on that one."
+	
+	"\0\b[0]do i have any enemies? yeah, a few. i take care of them pretty quick. can't let them outnumber you. like the other day,%(br)there was this %(fiend) after me, and you know what i did? climbed right up a tree and dropped a pinecone on it. won't be coming back anytime soon after that one."
 	
 	if SHIORI3FW.BalloonName == "Noodloon"; "\0\b[0]sauce time~~ %(saucetime)"
 	
@@ -106,4 +115,10 @@ RandomTalk : nonoverlap_pool
 	"\0\b[4]don't be near the pot when it's brewing time, sometimes there are spills"
 	"\0\b[0]learn to hold still when you hear a stomach growling; giving yourself away when there's a hungry critter nearby is the last thing you want to do"
 	"\0\b[4]stir fried"
+	"\0\b[4]whether the glass is half full or half empty, be quick if%(br)you're going to use it as a bath"
+	"\0\b[4]the solution to a %(fiend) problem? %pasta. lots of %[0]."
+	"\0\b[4]don't let those %(fiends) catch you by surprise, they get active around this time of day"
+	"\0\b[0]make sure you're paying close attention to the sun, don't get caught out in its rays. you'll dry up faster than that %(friend) i used to know"
+	"\0\b[0]make sure to practice all of your movement options. wiggling, squiggling,%(br)and wriggling are all well and good, but how's your rolling? never know when that might be your only option in a pinch."
+	
 }
