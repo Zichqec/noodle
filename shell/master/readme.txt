@@ -1,5 +1,4 @@
-Noodle
-It's friends with Needle https://zichqec.github.io/s-the-skeleton/needle
+Bucatini noodle shell by Galla and Zichqec
 
 Galla https://gallathegalla.github.io/gtg-ghosts/
 Zichqec https://zichqec.github.io/s-the-skeleton/

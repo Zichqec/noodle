@@ -6,7 +6,7 @@ type,ghost
 shiori,yaya.dll
 
 craftman,Galla & Zichqec
-craftmanurl,https://zichqec.github.io/s-the-skeleton/
+craftmanurl,https://github.com/Zichqec/noodle
 
 sakura.name,Noodle
 
