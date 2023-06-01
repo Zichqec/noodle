@@ -113,7 +113,7 @@ FormatLinks : all
 		else; "%ASC(1)"
 	}
 }
-
+/*
 On_sakura.recommendsites
 {
 	FormatLinks(recommendsites_sakura)
@@ -136,18 +136,7 @@ portalsites_sakura : array
 	"Another link label";	"https://link.example.com/link/to/whatever/here/again/"
 	"A third link label";	"https://link.example.com/link/to/whatever/a/third/time/you/can/add/as/many/as/you/want/"
 }
-
-On_kero.recommendsites
-{
-	FormatLinks(recommendsites_kero)
-}
-
-//These are the websites linked in the first option of the kero's right click menu. Same as above
-recommendsites_kero : array
-{
-	"These labels can be anything you want";	"https://link.example.com/link/to/whatever/here/once/more/"
-}
-
+*/
 
 //—————————————————————————————— User pronoun related ——————————————————————————————
 
