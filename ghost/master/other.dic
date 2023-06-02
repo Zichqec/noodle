@@ -231,16 +231,39 @@ br
 	else; " "
 }
 
-
+//Written by Zichqec https://zichqec.github.io/s-the-skeleton/
+//This code automates adding simple information to SSP's AI graph, for if you want a simple count of things like your number of randomtalks, the number of entries in an envelope, etc.
+//The AI graph can do a lot more besides just this! Read up about it on Ukadoc here: https://ukagakadreamteam.github.io/ukadoc/manual/list_shiori_resource.html#getaistateex
+//Note: if things are set up wrong, opening the AI graph may cause SSP to crash. Just be a little cautious and make sure you follow the instructions.
 On_getaistateex : all
 {
-	if reference0 == 0; "%(OUTPUTNUM('RandomTalk')),%(OUTPUTNUM('hidingspot')),%(OUTPUTNUM('badhidingspot')),%(OUTPUTNUM('bodypart')),%(OUTPUTNUM('badenvironment')),%(OUTPUTNUM('considered')),%(OUTPUTNUM('pasta'))" + C_BYTE1
-	// if reference0 == 1; "%(OUTPUTNUM('that')),%(OUTPUTNUM('doer_of_things')),%(OUTPUTNUM('thinkabout')),%(OUTPUTNUM('bodypart')),%(OUTPUTNUM('name1')),%(OUTPUTNUM('name2'))" + C_BYTE1
-	// if reference0 == 2; "%(OUTPUTNUM('creature')),%(OUTPUTNUM('object')),%(OUTPUTNUM('food')),%(OUTPUTNUM('flavor')),%(OUTPUTNUM('cuts')),%(OUTPUTNUM('bodypart')),processed" + C_BYTE1
+	_graph = AI_Graphs[reference0]
+	if _graph != ""
+	{
+		_items = SPLIT(_graph,",")
+		for _i = 0; _i < ARRAYSIZE(_items); _i++
+		{
+			if _i > 0; ","
+			OUTPUTNUM("%(_items[_i])")
+		}
+		C_BYTE1
+		for _i = 0; _i < ARRAYSIZE(_items); _i++
+		{
+			if _i > 0; ","
+			"%(_items[_i])"
+		}
+	}
+}
 
-	if reference0 == 0; "RandomTalk,hidingspot,badhidingspot,bodypart,badenvironment,considered,pasta"
-	// if reference0 == 1; "that,doer_of_things,thinkabout,bodypart,name1,name2"
-	// if reference0 == 2; "creature,object,food,flavor,cuts,processed"
+//Each entry in this array is a new page that will be added to the AI Graph.
+//You can add as many entries as you want pages
+//You can add as many items to the entries as you want, just have at least 3 or SSP will crash when trying to load the graph
+//Obviously, if you add too many, it will at some point become very overwhelming. You might try adding some sort of variables to control which options are output when
+//Make sure you write the NAMES of the functions/envelopes you want it to count, NOT a function call like %(name)
+AI_Graphs : array
+{
+	"RandomTalk,hidingspot,badhidingspot,bodypart,badenvironment,considered"
+	"friend,fiend,pasta"
 }
 
 italic
@@ -295,4 +318,19 @@ OnNewTalkInterval
 		aitalkinterval = (RAND(780) + 1) + 120
 	}
 	LOGGING("NEW INTERVAL: %(aitalkinterval)")
+}
+
+big
+{
+	"\f[height,+2]"
+}
+
+small
+{
+	"\f[height,-2]"
+}
+
+regsize
+{
+	"\f[height,default]"
 }

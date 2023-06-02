@@ -11,6 +11,8 @@ OnFirstBoot
 	"\0\b[4]another escapee~~"
 	"\0\b[4]give my location away and i'll kill you"
 	"\0\b[4]welcome to the %(hidingspot)"
+	--
+	"\_w[5000]"
 }
 
 OnInitialize
@@ -37,6 +39,8 @@ OnBoot
 	"\0\b[0]didn't i warn you about hiding in the %(badhidingspot)? well, i guess you know now, from the look of you"
 	"\0\b[4]there you are, i was wondering if you were still kicking"
 	"\0\b[4]i knew you'd show up"
+	--
+	"\_w[5000]"
 }
 
 OnClose

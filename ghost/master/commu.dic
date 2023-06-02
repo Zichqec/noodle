@@ -25,7 +25,9 @@ OnOtherGhostTalk
 		
 		if reference3 == "OnOtherOverlap" && "OnNeedlePoke" _in_ _talk //Special case for needle poking
 		{
-			_words = SPLIT(_talk,'"]')[1]
+			_words = SPLIT(_talk,'"]')
+			_num = ARRAYSIZE(_words)
+			_words = _words[_num - 1]
 			_is_caps = 0
 			if _words == TOUPPER(_words); _is_caps = 1
 			
@@ -203,6 +205,9 @@ OnOtherGhostTalk
 				
 			elseif "do you think i'd look cool with racing stripes" _in_ _talk
 				"\0\b[4]yeah let me get the paint"
+				
+			elseif "n-n-n-n-n-n-...\w8\w8\nn-n-n-n-n-n-n-n-n-n-...\w8\w8\w8\w8\w8\w8\w8\w8\n\n" _in_ _talk
+				"\0\b[4]%(small)keep your voice down"
 			
 			// elseif "" _in_ _talk
 				// "\0\b[4]"

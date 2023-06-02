@@ -1,14 +1,14 @@
 charset,OSNative
 file,developer_options.txt9a09a481d7550afde11cf1b5ac3d1d87size=76date=2023-05-27T16:10:26
 file,ghost/master/aitalk.dicf90ead7d31c706b93c20358aa337917csize=12145date=2023-05-31T21:51:51
-file,ghost/master/boot.dic5bc6b3940e0feae2c7a680a3f307ef61size=1917date=2023-05-31T04:58:52
-file,ghost/master/commu.dic157f9338e6ead9f18c2416d59938e664size=8098date=2023-05-31T20:26:34
+file,ghost/master/boot.dicabdcac2fa4901fb4343b5e78a9b482fcsize=1955date=2023-06-01T03:54:54
+file,ghost/master/commu.dicd4a9ab6ff20eb4af8084188d63a1ff5asize=8302date=2023-06-02T19:19:27
 file,ghost/master/descript.txtec549ea781321dfd20a088276e86d54bsize=227date=2023-05-31T20:56:34
 file,ghost/master/emerg.dicc7cb6eacd3262003fef909c382a6fefesize=351date=2023-04-14T15:45:50
 file,ghost/master/meta.dicaa6632d142df820e39c630a379bad233size=3559date=2023-05-06T16:47:17
 file,ghost/master/mouse.dica8a5edd0a78c94f3548be6f7f886ea55size=939date=2023-05-31T20:08:16
 file,ghost/master/noodlecon.icoa5624da5b52f1a5fd472e6cc3fa71416size=101985date=2023-05-31T20:33:34
-file,ghost/master/other.dic787018321327c08c16dfa84127dd27absize=8638date=2023-05-31T21:52:50
+file,ghost/master/other.dicd01d57faccd7e15aea8dfe9cd9d847ffsize=9427date=2023-06-02T19:21:13
 file,ghost/master/sakura_menu.dic8085e9f98109467a6f362dc3838e9f70size=1675date=2023-05-27T16:02:17
 file,ghost/master/word.dic83e90d5a820f5921b0b1a1b76e55fb5esize=5025date=2023-05-31T19:42:38
 file,ghost/master/yaya.dll56e3af56c88e696cea1f39d53b239cefsize=880640date=2022-09-10T19:18:59
@@ -17,7 +17,7 @@ file,ghost/master/yaya_base/_loading_order.txt9c350c2c9c08f635bff5eaae149af8c8
 file,ghost/master/yaya_base/compatible.dic4f8b1e8c8c08dc44e70b1bd4f52a1affsize=4297date=2023-04-02T10:34:13
 file,ghost/master/yaya_base/config.dic9dae7f666d2a30ddede6093c7d2a5750size=2627date=2023-04-14T16:03:05
 file,ghost/master/yaya_base/optional.dicff4da728a656a8aa6a38939e654c51f2size=9953date=2023-04-02T10:34:13
-file,ghost/master/yaya_base/shiori3.dic1020638d5e3881c23cc9baabc366e730size=52209date=2023-04-02T10:34:13
+file,ghost/master/yaya_base/shiori3.dicc9a84b1a03c2bc65507c40e63b6cbde2size=54845date=2023-06-02T01:46:45
 file,ghost/master/yaya_emerg.txt9e43b4696366a536ecc69e45d80e392csize=607date=2023-04-14T15:44:19
 file,install.txt4e97f7d77b82bb05c3ba696f931b30fcsize=91date=2023-05-31T21:37:24
 file,readme.txt62e33c0346be63c93d58e52e029b0391size=223date=2023-05-31T22:01:04
