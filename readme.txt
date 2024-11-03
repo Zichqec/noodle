@@ -1,8 +1,8 @@
 Noodle
-It's friends with Needle https://zichqec.github.io/s-the-skeleton/needle
+It's friends with Needle https://ukagaka.zichqec.com/ghost/needle
 
 Content warnings:
 May cause hunger
 
 Galla https://gallathegalla.github.io/gtg-ghosts/
-Zichqec https://zichqec.github.io/s-the-skeleton/
+Zichqec https://ukagaka.zichqec.com/
