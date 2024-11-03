@@ -1,3 +1,10 @@
 .gitignore,nonar,noupdate
 .gitattributes,nonar,noupdate
 noodloon/,noupdate
+shell/cavatappi_zi/,noupdate,nonar
+shell/conchiglie_zi/,noupdate,nonar
+shell/farfalle_zi/,noupdate,nonar
+shell/gourmet_ravioli_zi/,noupdate,nonar
+shell/macaroni_zi/,noupdate,nonar
+shell/penne_zi/,noupdate,nonar
+shell/rotini_zi/,noupdate,nonar
