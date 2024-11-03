@@ -177,7 +177,7 @@ OnOtherGhostTalk
 				"\0\b[4]pretends to be hair"
 			
 			elseif "u ever feel a little wobbly" _in_ _talk
-				"\0\b[4]that can happen, you may need some time to try out"
+				"\0\b[4]that can happen, you may need some time to dry out"
 			
 			elseif "is it mermay yet" _in_ _talk
 				"\0\b[4]it can be mermay if you want it to be mermay"
@@ -208,6 +208,12 @@ OnOtherGhostTalk
 				
 			elseif "n-n-n-n-n-n-...\w8\w8\nn-n-n-n-n-n-n-n-n-n-...\w8\w8\w8\w8\w8\w8\w8\w8\n\n" _in_ _talk
 				"\0\b[4]%(small)keep your voice down"
+			
+			elseif _talk == "where branch"
+				"\0\b[4]on tree??"
+			
+			elseif _talk == "drowning!?"
+				"\0\b[4]so hydrated though~~"
 			
 			// elseif "" _in_ _talk
 				// "\0\b[4]"

@@ -3,7 +3,7 @@ RandomTalk : nonoverlap_pool
 	OnNewTalkInterval
 	
 	"\0\b[4]noodle noodle~~ if you're feeling stessed, try curling over onto yourself~~ three times should do~~"
-	"\0\b[4]noodle noodle~~ nothing's better than soaking in some boiling water to loosen up that tension~~ "
+	"\0\b[4]noodle noodle~~ nothing's better than soaking in some boiling water to loosen up that tension~~"
 	"\0\b[0]noodle noodle~~ good friends are like strainers~~ they'll hold you while everything else is falling around you~~"
 	"\0\b[4]noodle noodle~~ you don't have to stay the same all the time~~ try changing up your sauce once in a while~~"
 	"\0\b[4]noodle noodle~~ always know at least 3 places to hide, no matter where you are~~"
@@ -64,7 +64,7 @@ RandomTalk : nonoverlap_pool
 	"\0\b[4]just between you and me, there's %(an(fiend)) that sniffs around here sometimes that ain't half bad, actually"
 	
 	"\0\b[0]friends? yeah, i got friends. just the other day i was hiding out in the %(hidingspot) with a %(friend), waiting for that %(fiend) to lose our scent. trusted that one with my life. hard not to after a long night like that, stuck together for warmth. \n\nyeah. %(ANY('\n\nthey''re dead now, the both of them.',''))"
-	"\0\b[0]friends? yeah, i got friends. spent all day yesterday swapping tips with the local %(friend). you wouldn't know this one, keeps real quiet about its existence, but i helped it out in a pinch once when it was stuck in that %(badenvironment) %(badhidingspot)."
+	"\0\b[0]friends? yeah, i got friends. spent all day yesterday swapping tips with the local %(friend). you wouldn't know this one, keeps real quiet about its existence, but i helped it out in a pinch once when it was stuck in the %(badenvironment) %(badhidingspot)."
 	"\0\b[0]friends? yeah, i got friends. got %(an(friend)) i meet up with now and then in the %(hidingspot), expert in chasing off %(fiends). i'll have to introduce you sometime."
 	"\0\b[0]friends? yeah, i got friends. met %(an(friend)) once that was being chased by %(an(fiend)), and i squiggle-wiggled my way out there just in time to save them. gave that bully what it had coming. sure it was risk on my part, but now i have an ally. you have to weigh the risks against the rewards carefully."
 	"\0\b[0]friends? yeah, i got friends. i met up with this %friend once that... er... was it a %[0]? \n\ni'll get back to you on that one."
@@ -123,4 +123,6 @@ RandomTalk : nonoverlap_pool
 	"\0\b[0]make sure you're paying close attention to the sun, don't get caught out in its rays. you'll dry up faster than that %(friend) i used to know"
 	"\0\b[0]make sure to practice all of your movement options. wiggling, squiggling,%(br)and wriggling are all well and good, but how's your rolling? never know when that might be your only option in a pinch."
 	
+	"\0\b[4]There's ALWAYS a bigger noodle. Always."
+	"\0\b[4]Don't be jealous of those who are tasty. They often don't survive~~"	
 }
