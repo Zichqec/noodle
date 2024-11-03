@@ -265,3 +265,30 @@ On_otherghostname
 		ghostexlist ,= _ghost[0,C_BYTE1]
 	}
 }
+
+
+
+
+
+
+
+
+
+OnSpectrePlugin.ConfirmCalibration
+{
+	"\![raiseplugin,Spectre,OnCustomCalibrationConfirm,__NO_EXPRESSIONS__]"
+}
+
+OnSpectrePlugin.Possession
+{
+	if RAND(4) == 0
+	{
+		"\0\b[4]pasta's haunted"
+		"\0\b[4]kitchen's haunted"
+		"\0\b[4]swamp's haunted"
+		"\0\b[4]bog's haunted "
+		"\0\b[4]dough's haunted"
+		"\0\b[4]flour's haunted"
+		"\0\b[4]one of the lost ones~~"
+	}
+}
