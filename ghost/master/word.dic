@@ -270,7 +270,7 @@ addsauce : all
 	_color = ""
 	case CurrentColor
 	{
-		when "Green", "Black", "Purple"; _color = "white"
+		when "Green", "Red", "Purple"; _color = "white"
 	}
 	_img = _path + "online" + _color
 	" "
