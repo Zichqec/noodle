@@ -6,6 +6,7 @@ type,ghost
 shiori,yaya.dll
 
 craftman,Galla & Zichqec
+craftmanw,Galla & Zichqec
 craftmanurl,https://github.com/Zichqec/noodle
 
 sakura.name,Noodle
