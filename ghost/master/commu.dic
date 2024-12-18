@@ -45,7 +45,7 @@ OnOtherGhostTalk
 			--
 			if _is_caps; "~~"
 		}
-		else //Just reacting to normal convos
+		else //Just reacting to normal convos //TODO the blushie shell will break this with the uwus, at least the ones that check for an exact match
 		{
 			if "Crabs crabs CRABS crabs " _in_ _talk
 				"\0\b[4]crabs on the beach~~ crabs on the beach~~"
@@ -214,6 +214,9 @@ OnOtherGhostTalk
 			
 			elseif _talk == "drowning!?"
 				"\0\b[4]so hydrated though~~"
+				
+			elseif _talk == "k-chuu\e"
+				"\0\b[4]bless you"
 			
 			// elseif "" _in_ _talk
 				// "\0\b[4]"
